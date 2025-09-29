@@ -1,0 +1,68 @@
+---
+# General Settings
+format: html
+echo: false
+warning: false
+
+# Theme Settings
+theme: default
+barposition: top
+footer-left: "Made with [surveydown](https://surveydown.org)"
+footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/surveydown-dev/template_reactive_drilldown)'
+
+# Survey Settings
+use-cookies: false
+auto-scroll: false
+rate-survey: false
+system-language: en
+highlight-unanswered: true
+highlight-color: blue
+capture-metadata: true
+all-questions-required: false
+---
+
+```{r}
+library(surveydown)
+```
+
+::: {.sd_page id=vehicle}
+
+# Template - Reactive drilldown
+
+::: {.callout-note}
+
+The name of `drilldown` mimics the package name `surveydown`. It means the latter question options are defined from the former selection. It's like "drilling" down from a higher level.
+
+This is an example of car selection. The **Model** options will change based on the selection of **Make**. By doing this, you'll only see the Models belonging the correct Makes.
+
+:::
+
+Tell us about your vehicle:
+
+```{r}
+years <- rev(seq(2010, 2025, 1))
+names(years) <- years
+
+sd_question(
+  type   = "select",
+  id     = "year",
+  label  = "Model Year:",
+  option = years
+)
+
+sd_output('make', type = 'question')
+
+sd_output('model', type = 'question')
+
+sd_next()
+```
+
+:::
+
+::: {.sd_page id=end}
+
+```{r}
+sd_close()
+```
+
+:::

@@ -59,7 +59,7 @@ server <- function(input, output, session) {
   )
 
   observe({
-    make_selected_df <- cars[which(input$make == cars$make), ]
+    make_selected_df <- cars[which(sd_value("make") == cars$make), ]
     models <- make_selected_df$model
     names(models) <- models
 

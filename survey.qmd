@@ -17,7 +17,7 @@ survey-settings:
   highlight-unanswered: true
   highlight-color: blue
   capture-metadata: true
-  all-questions-required: false
+  all-required: false
 ---
 
 ```{r}

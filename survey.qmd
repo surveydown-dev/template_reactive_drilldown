@@ -54,7 +54,7 @@ sd_output('make', type = 'question')
 
 sd_output('model', type = 'question')
 
-sd_next()
+sd_nav()
 ```
 
 :::

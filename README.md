@@ -1,6 +1,16 @@
-A [reactive](https://surveydown.org/docs/reactivity.html) question template, with latter question options defined from former selection.
+A reactive question template, with latter question options defined from former selection.
 
-To create this template, run this command in your R console:
+### 🎬 Video
+
+This template has no live online demo. A video walkthrough is provided instead.
+
+### Template page
+
+https://surveydown.org/templates/reactive_drilldown
+
+### Create this template
+
+Run this command in your R console:
 
 ```r
 surveydown::sd_create_survey(
@@ -9,4 +19,6 @@ surveydown::sd_create_survey(
 )
 ```
 
-Refer to the [Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template) section for more details.
+### Documentation
+
+[Reactivity](https://surveydown.org/docs/reactivity.html) · [Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template)

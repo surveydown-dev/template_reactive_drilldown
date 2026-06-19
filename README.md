@@ -2,7 +2,7 @@ A reactive question template, with latter question options defined from former s
 
 ### 🎬 Walkthrough Recording
 
-[![Walkthrough recording](video-thumbnail.jpg)](https://github.com/surveydown-dev/template_reactive_drilldown/blob/main/video-recording.mp4)
+[![Walkthrough recording](video-thumbnail.jpg)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_reactive_drilldown@main/video-recording.mp4)
 
 *Click the image above to play the recording.*
 

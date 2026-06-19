@@ -1,12 +1,12 @@
+# Template - Reactive Drilldown
+
 A reactive question template, with latter question options defined from former selection.
 
-### 🎬 Walkthrough Recording
+### See it in action
+
+Play with the [**Live demo**](https://surveydown-reactive-drilldown.share.connect.posit.cloud) or watch the **Walkthrough recording:**
 
 [![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_reactive_drilldown@main/video-recording.mp4)
-
-### Template page
-
-https://surveydown.org/templates/reactive_drilldown
 
 ### Create this template
 
@@ -19,6 +19,8 @@ surveydown::sd_create_survey(
 )
 ```
 
-### Documentation
+### Learn more
 
-[Reactivity](https://surveydown.org/docs/reactivity.html) · [Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template)
+- [Template page - Reactive Drilldown](https://surveydown.org/templates/reactive_drilldown)
+- [Document page - Reactivity](https://surveydown.org/docs/reactivity.html)
+- [Document page - Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template)

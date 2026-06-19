@@ -4,8 +4,6 @@ A reactive question template, with latter question options defined from former s
 
 [![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_reactive_drilldown@main/video-recording.mp4)
 
-*Click the image above to play the recording.*
-
 ### Template page
 
 https://surveydown.org/templates/reactive_drilldown
